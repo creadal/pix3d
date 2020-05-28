@@ -1,7 +1,7 @@
-nvcc := usr/local/cuda//bin/nvcc
-cudalib := usr/local/cuda//lib64
-cudainclude := usr/local/cuda/include
-tensorflow := usr/local/lib/python3.6/dist-packages/include
+nvcc := /usr/local/cuda//bin/nvcc
+cudalib := /usr/local/cuda//lib64
+cudainclude := /usr/local/cuda/include
+tensorflow := /usr/local/lib/python3.6/dist-packages/include
 
 all: cd/tf_nndistance_so.so emd/tf_sampling_so.so emd/tf_auctionmatch_so.so
 clean:
